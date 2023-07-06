@@ -1,0 +1,40 @@
+<html>
+<body>
+<head>
+<form  action="{{url_for('matchres')}}" method="post">
+<table border=1>
+  <tr>
+    <th></th>
+    <th>ಜೋಡಿಸಿ</th>
+    <th></th>
+    <th>ಸಂಧಿ</th>
+  </tr>
+  <tr>
+    <td>1]	ಮಾಡು + ಇಸು</td>
+    <td><input type="text" name="1" value="{{request.form.1}}"></td>
+    <td>ಮೇಯಿಸು</td>
+    <td><input type="text" name="4" value="{{request.form.4}}"></td>
+    <td>ಲೋಪ ಸಂಧಿ</td>
+  </tr>
+ <tr>
+    <td>2]	ಹೊಸ + ಕನ್ನಡ</td>
+    <td><input type="text" name="2" value="{{request.form.2}}"></td>
+    <td>ಮಾಡಿಸು </td>
+    <td><input type="text" name="5" value="{{request.form.5}}"></td>
+    <td>ಆಗಮ ಸಂಧಿ</td>
+ </tr>
+ <tr>
+    <td>3]	ಮೇ + ಇಸು </td>
+ 
+    <td><input type="text" name="3" value="{{request.form.3}}"></td>
+     <td>ಹೊಸಗನ್ನಡ</td>
+     <td><input type="text" name="6" value="{{request.form.6}}"></td> 
+     <td>ಆದೇಶ ಸಂಧಿ</td>
+ </tr>
+</table>
+ <P><input type="SUBMIT" VALUE="ಸಲ್ಲಿಸು" name="B1"></P>
+</form>
+
+</head>
+</body>
+</html>

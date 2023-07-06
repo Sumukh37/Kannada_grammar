@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<style type="text/css">
+#id2{
+position: absolute;
+left: 1000px;
+bottom: -200px;
+text-align: center;
+}
+
+
+
+
+body {
+  color: rgb(17, 36, 66);
+  text-align: center;
+}
+	</style><title>ಅನ್ಯ ದೇಶಿಯ ಪದಗಳು</title>
+    <link rel="stylesheet" href="static/scss/newfile1.css">
+    <link rel="shortcut icon" href="..\static\images\kannada.webp" type="image/x-icon">
+
+
+
+  </head>
+  <body style="text-align:center;">
+    <div class="new">
+      <h1 class="box_color">ಅನ್ಯ ದೇಶಿಯ ಪದಗಳು<hr></h1>
+      <button type="button" onclick="window.location.href='http://127.0.0.1:5000/homea';">ಮುಖ್ಯಪುಟ</button>
+      <button type="button" onclick="window.location.href='http://127.0.0.1:5000/start1a';">ಉದಾಹರಣೆಗಳು</button>
+      <button type="button" onclick="window.location.href='http://127.0.0.1:5000/testa';">ಪರೀಕ್ಷಿಸಿ</button>
+      <button type="button" onclick="window.location.href='http://127.0.0.1:5000/welcomea';">ಅಭ್ಯಾಸ ಪ್ರಾರಂಭಿಸು</button>
+      <button type="button" onclick="window.location.href='http://127.0.0.1:5000';">ವ್ಯಾಕರಣ ಮುಖ್ಯಪುಟ</button>
+
+    </div><br><br><br><br><br>
+		<h2>
+    		ಹೊಂದಿಸಿ ಬರೆಯಿರಿ
+    	</h2>
+		<br><br>
+    	<table style="width:50%">
+  		<tr>
+    		<td><h2 id = "word1">{{word1}}</h2></td>
+    		<td><h2 id = "lang1">1. {{value1}}</h2></td>
+			<td><input type="text" name="name" id="number1"></td>
+			<td id = "ans1"></td>
+  		</tr>
+  		<tr>
+    		<td><h2 id = "word2">{{word2}}</h2></td>
+    		<td><h2 id = "lang2">2. {{value2}}</h2></td>
+			<td><input type="text" name="name" id="number2"></td>
+			<td id = "ans1"></td>
+  		</tr>
+  		<tr>
+    		<td><h2 id = "word3">{{word3}}</h2></td>
+    		<td><h2 id = "lang3">3. {{value3}}</h2></td>
+			<td><input type="text" name="name" id="number3"></td>
+			<td id = "ans1"></td>
+  		</tr>
+  		<tr>
+    		<td><h2 id = "word4">{{word4}}</h2></td>
+    		<td><h2 id = "lang4">4. {{value4}}</h2></td>
+			<td><input type="text" name="name" id="number4"></td>
+			<td id = "ans1"></td>
+  		</tr>
+  		<tr>
+    		<td><h2 id = "word5">{{word5}}</h2></td>
+    		<td><h2 id = "lang5">5. {{value5}}</h2></td>
+			<td><input type="text" name="name" id="number5"></td>
+			<td id = "ans1"></td>
+  		</tr>
+		</table>
+		<br><br>
+    <div class="new">
+      <button type="button" onclick="passParam()">ಸಲ್ಲಿಸಿ</button>
+      <button type="button" onclick="window.location.href='http://127.0.0.1:5000/welcomea';">ಹಿಂದಿನ ಪುಟ</button>
+
+    </div>
+		<h2	id = "id2"  ></h2>
+		<script>
+  			function passParam() {
+				ans1 = document.getElementById('number1').value
+				ans2 = document.getElementById('number2').value
+				ans3 = document.getElementById('number3').value
+				ans4 = document.getElementById('number4').value
+				ans5 = document.getElementById('number5').value
+				var ans = [ans1,ans2,ans3,ans4,ans5]
+				word1 = document.getElementById('word1').innerHTML
+				word2 = document.getElementById('word2').innerHTML
+				word3 = document.getElementById('word3').innerHTML
+				word4 = document.getElementById('word4').innerHTML
+				word5 = document.getElementById('word5').innerHTML
+				var col1 = [word1,word2,word3,word4,word5]
+				value1 = document.getElementById('lang1').innerHTML
+				value2 = document.getElementById('lang2').innerHTML
+				value3 = document.getElementById('lang3').innerHTML
+				value4 = document.getElementById('lang4').innerHTML
+				value5 = document.getElementById('lang5').innerHTML
+				var col2 = [value1,value2,value3,value4,value5]
+
+
+				var http = new XMLHttpRequest();
+				var url = 'http://127.0.0.1:5000/validatea';
+				var params = `ans=${ans}&word=${col1}&lang=${col2}&type=match`;
+				http.open('POST', url, true);
+
+				//Send the proper header information along with the request
+				http.setRequestHeader('Content-type','application/x-www-form-urlencoded');
+
+				http.onreadystatechange = function() {//Call a function when the state changes.
+    			if(http.readyState == 4 && http.status == 200) {
+        			document.getElementById('id2').innerHTML =  http.responseText;
+
+    			}
+				}
+			http.send(params);
+  			}
+		</script>
+
+    </body>
+</html>

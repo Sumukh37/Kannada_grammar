@@ -1,0 +1,171 @@
+{
+  "letters": {
+    "part one": {
+      "meem": {
+        "questions": [
+          {
+        "question": "ಕಗ್ಗ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "b"
+    },
+    {
+        "question": " ಕಾರ್ಯ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+        "answer": "a"
+        },
+            {
+        "question": " ಸ್ವರ ತತ್ಸಮ/ತದ್ಭವ ?\n   ",
+         "answer": "a"
+    },
+            {
+        "question": " ಅಕ್ಷರ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "a"
+    },
+             {
+        "question": " ಅಕ್ಕರ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "b"
+    },
+             {
+        "question": " ಸರ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "b"
+    },
+             {
+        "question": " ಆರ್ಯ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "a"
+    },
+             {
+        "question": "ಅಜ್ಜ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "b"
+    },
+              {
+        "question": " ಕೀರ್ತಿ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "a"
+    },
+              {
+        "question": "ಕೀರುತಿ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "b"
+    },
+              {
+        "question": "ಪ್ರಾಣ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "a"
+    },
+              {
+        "question": " ಪಿರಾಣ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "b"
+    },
+              {
+        "question": " ವನ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "a"
+    },
+             {
+        "question": " ಬನ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "b"
+    },
+              {
+        "question": " ದೃಷ್ಟಿ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "a"
+    },
+              {
+        "question": " ದಿಟ್ಟಿ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "b"
+    },
+              {
+        "question": " ಸುಖ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "a"
+    },
+              {
+        "question": " ಸೊಗ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "b"
+    },
+              {
+        "question": " ಬ್ರಹ್ಮ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "a"
+    },
+              {
+        "question": " ಬೊಮ್ಮ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "b"
+    },
+	 {
+        "question": " ಕಾವೇರೀ  ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "a" 
+    },
+              {
+        "question": " ಕಾವೇರಿ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "b"
+    },
+                    {
+        "question": " ಕಾಮ  ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "a" 
+    },
+              {
+        "question": " ಕಾವ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "b"
+    },
+	{
+        "question": "ಕವಿ   ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "a" 
+    },
+              {
+        "question": " ಕಬ್ಬಿಗ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "b"
+    },
+                    {
+        "question": " ಕುಂಬಕಾರ  ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "a" 
+    },
+              {
+        "question": " ಕುಂಬಾರ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "b"
+    },
+	{
+        "question": "ಸಂತೋಷ   ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "a" 
+    },
+              {
+        "question": " ಸಂತಸ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "b"
+    },
+                    {
+        "question": "ಸುಧಾ   ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "a" 
+    },
+              {
+        "question": " ಸೂದೆ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "b"
+    },
+	{
+        "question": "ಶೆರ  ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "a" 
+    },
+              {
+        "question": " ಸಿರ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "b"
+    },
+                    {
+        "question": "ಅಗ್ನಿ  ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "a" 
+    },
+              {
+        "question": " ಅಡವಿ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "b"
+    },
+	{
+        "question": "ಶೆರ  ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "a" 
+    },
+              {
+        "question": " ಸಿರ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "b"
+    },
+                    {
+        "question": "ಕಬಳ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "a" 
+    },
+              {
+        "question": " ಕವಳ ತತ್ಸಮ/ತದ್ಭವ?\n   ",
+         "answer": "b"
+    }
+                    
+       ]
+      }
+    }
+  }
+}

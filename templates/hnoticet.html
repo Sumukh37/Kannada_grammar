@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ತತ್ಸಮ ತದ್ಭವ</title>
+    <link rel="stylesheet" href="static/scss/newfile1.css">
+    <link rel="shortcut icon" href="..\static\images\kannada.webp" type="image/x-icon">
+
+
+  </head>
+  <body align="center">
+
+
+        <div class="new">
+          <h1 class="box_color">ತತ್ಸಮ ತದ್ಭವ<hr></h1>
+          <button type="button" onclick="window.location.href='http://127.0.0.1:5000/indext';">ಮುಖ್ಯಪುಟ</button>
+          <button type="button" onclick="window.location.href='http://127.0.0.1:5000/searcht';">ಅಭ್ಯಾಸ 1</button>
+          <button type="button" onclick="window.location.href='http://127.0.0.1:5000/findt';">ಅಭ್ಯಾಸ 2</button>
+          <button type="button" onclick="window.location.href='http://127.0.0.1:5000/hnoticet';">ಅಭ್ಯಾಸ 3</button>
+
+          <button type="button" onclick="window.location.href='http://127.0.0.1:5000';">ವ್ಯಾಕರಣ ಮುಖ್ಯಪುಟ</button>
+        </div>
+        
+        <h2>ಹೊಂದಿಸಿ ಬರೆಯಿರಿ</h2>
+              <i class="fa fa-spoon"></i>
+              <span class="mu-title-bar"></span>
+            </div>
+            <div class="row">
+            <div class="col-md-4">
+            <div class="clearfix"></div>
+            </div>
+                <div class="col-md-6">
+                  <div class="mu-about-us-left">
+                    <form class="mu-reservation-form" action="/hnot" method="POST">
+                         <table style="margin:auto;" >
+                     <tr> <td>{{q1}}&nbsp; &nbsp; </td>   <td>{{r1}} </td><td>&nbsp; <input type="text" size="4"  name="v1" placeholder="  "  required></td><td>&nbsp;{{l1}}&nbsp; </td><td>&nbsp;{{rr1}}&nbsp; </td>  <td>{{p1}}</td>  </tr>
+                     <tr><td></td></tr>
+                     <tr> <td>{{q2}} &nbsp;&nbsp;</td>    <td>{{r2}} </td><td>&nbsp; <input type="text" size="4"  name="v2" placeholder=" "  required></td><td>&nbsp;{{l2}}&nbsp; </td><td>&nbsp;{{rr2}}&nbsp; </td>  <td>{{p2}}</td>     </tr>
+                     <tr> <td>{{q3}} &nbsp; &nbsp;  </td> <td>{{r3}} </td> <td>&nbsp; <input type="text" size="4"  name="v3" placeholder="  "  required></td><td>&nbsp;{{l3}}&nbsp; </td><td>&nbsp;{{rr3}}&nbsp; </td>  <td>{{p3}}</td>    </tr>
+                     <tr> <td>{{q4}}  &nbsp;&nbsp;</td>   <td>{{r4}} </td> <td>&nbsp; <input type="text" size="4"  name="v4" placeholder="  "  required></td><td>&nbsp;{{l4}}&nbsp; </td><td>&nbsp;{{rr4}}&nbsp; </td>  <td>{{p4}}</td>    </tr>
+                     <tr> <td>{{q5}} &nbsp; &nbsp;</td>   <td>{{r5}} </td><td>&nbsp; <input type="text" size="4" name="v5" placeholder="  "  required></td><td>&nbsp;{{l5}}&nbsp; </td><td>&nbsp;{{rr5}}&nbsp; </td>   <td>{{p5}}</td>    </tr>
+                           </table>
+                           <br>
+                           <button type="submit" class="mu-readmore-btn">ಸಲ್ಲಿಸಿ</button>
+             </br>
+             <br>
+
+             <a href="/hnoticet" class="mu-readmore-btn">ಪುನರಾರಂಭಿಸಿ</a>
+                 </br>
+                          </form>
+                       </div>
+                   </ul>
+                  </div>
+                </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="mu-about-us-left">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mu-about-us-right">
+
+  <!-- Start slider  -->
+
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ತತ್ಸಮ ತದ್ಭವ</title>
+    <link rel="shortcut icon" href="..\static\images\kannada.webp" type="image/x-icon">
+
+
+   
+    <link href="{{ url_for('static',filename='assets/css/font-awesome.css') }}" rel="stylesheet">
+   
+    <link href="{{ url_for('static',filename='assets/css/bootstrap.css') }}" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename = 'assets/css/slick.css') }}">
+   
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename = 'assets/css/bootstrap-datepicker.css') }}">
+    
+    <link rel="stylesheet" href="{{ url_for('static',filename ='assets/css/jquery.fancybox.css') }}" type="text/css" media="screen" />
+  
+    <link id="switcher" href="{{ url_for('static',filename='assets/css/theme-color/default-theme.css') }}" rel="stylesheet">
+
+
+    <link href="{{ url_for('static',filename='style.css') }}" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+ <a class="scrollToTop" href="#">
+      <i class="fa fa-angle-up"></i>
+      <span>Top</span>
+    </a>
+  <header id="mu-header">
+    <nav class="navbar navbar-default mu-main-navbar" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+       
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
+            <li><a href="/indext">ಮುಖ್ಯ ಪುಟ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="mu-slider">
+    <div class="mu-slider-area">
+  
+      <div class="mu-top-slider">
+       
+        <div class="mu-top-slider-single">
+
+          
+          <div class="mu-top-slider-content">
+            <span class="mu-slider-small-title">Tyre Zero Companies</span>
+            <h6 class="mu-slider-title"></h6>
+            <p></p>
+            
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="mu-about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-about-us-area">
+            <div class="mu-title">
+              <span class="mu-subtitle"></span>
+              <h2>ಹೊಂದಿಸಿ ಬರೆಯಿರಿ</h2>
+              <i class="fa fa-spoon"></i>
+              <span class="mu-title-bar"></span>
+            </div>
+            <div class="row">
+            <div class="col-md-4">
+            <div class="clearfix"></div>
+            </div>
+                <div class="col-md-6">
+                  <div class="mu-about-us-left">
+                    <form class="mu-reservation-form" action="/hnot" method="POST">
+                         <table>
+                     <tr> <td>{{q1}}&nbsp; &nbsp; </td>   <td>{{r1}} </td><td>&nbsp; <input type="text" size="4"  name="v1" placeholder="  "  required></td><td>&nbsp;{{l1}}&nbsp; </td><td>&nbsp;{{rr1}}&nbsp; </td>  <td>{{p1}}</td>  </tr>
+                     <tr><td></td></tr>
+                     <tr> <td>{{q2}} &nbsp;&nbsp;</td>    <td>{{r2}} </td><td>&nbsp; <input type="text" size="4"  name="v2" placeholder=" "  required></td><td>&nbsp;{{l2}}&nbsp; </td><td>&nbsp;{{rr2}}&nbsp; </td>  <td>{{p2}}</td>     </tr>
+                     <tr> <td>{{q3}} &nbsp; &nbsp;  </td> <td>{{r3}} </td> <td>&nbsp; <input type="text" size="4"  name="v3" placeholder="  "  required></td><td>&nbsp;{{l3}}&nbsp; </td><td>&nbsp;{{rr3}}&nbsp; </td>  <td>{{p3}}</td>    </tr>
+                     <tr> <td>{{q4}}  &nbsp;&nbsp;</td>   <td>{{r4}} </td> <td>&nbsp; <input type="text" size="4"  name="v4" placeholder="  "  required></td><td>&nbsp;{{l4}}&nbsp; </td><td>&nbsp;{{rr4}}&nbsp; </td>  <td>{{p4}}</td>    </tr>
+                     <tr> <td>{{q5}} &nbsp; &nbsp;</td>   <td>{{r5}} </td><td>&nbsp; <input type="text" size="4" name="v5" placeholder="  "  required></td><td>&nbsp;{{l5}}&nbsp; </td><td>&nbsp;{{rr5}}&nbsp; </td>   <td>{{p5}}</td>    </tr>
+                           </table>
+                           <br>
+                           <button type="submit" class="mu-readmore-btn">ಸಲ್ಲಿಸಿ</button>
+             </br>
+             <br>
+
+             <a href="/hnoticet" class="mu-readmore-btn">ಪುನರಾರಂಭಿಸಿ</a>
+                 </br>
+                          </form>
+                       </div>
+                   </ul>
+                  </div>
+                </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="mu-about-us-left">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mu-about-us-right">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <section id="mu-contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-contact-area">
+            <div class="mu-title">
+              <span class="mu-subtitle"></span>
+              <h2> </h2>
+              <i class="fa fa-spoon"></i>
+              <span class="mu-title-bar"></span>
+
+			  <div class="mu-contact-right">
+			  <div class="mu-contact-widget">
+
+                    </div>
+				</div>
+				</div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+ 
+
+  <script src="{{ url_for('static',filename='assets/js/jquery.min.js') }}"></script>
+
+  <script src="{{ url_for('static',filename='assets/js/bootstrap.js') }}"></script>
+
+  <script type="text/javascript" src="{{ url_for('static',filename='assets/js/slick.js') }}"></script>
+
+  <script type="text/javascript" src="{{ url_for('static',filename='assets/js/waypoints.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static',filename='assets/js/jquery.counterup.js') }}"></script>
+
+  <script type="text/javascript" src="{{ url_for('static',filename='assets/js/bootstrap-datepicker.js') }}"></script>
+
+  <script type="text/javascript" src="{{ url_for('static',filename='assets/js/jquery.mixitup.js') }}"></script>
+  
+  <script type="text/javascript" src="{{ url_for('static',filename='assets/js/jquery.fancybox.pack.js') }}"></script>
+
+  <script src="{{ url_for('static',filename='assets/js/custom.js') }}"></script>
+  </body>
+</html> -->

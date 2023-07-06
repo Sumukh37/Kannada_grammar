@@ -1,0 +1,57 @@
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 20px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+/* Style for the unordered list */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style for the list items */
+li {
+    margin-bottom: 10px;
+}
+
+/* Style for the buttons */
+button {
+    font-size: 30px;
+    color: red;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    background-color: #b2eded;
+}
+
+    button:hover {
+        text-decoration: none;
+    }
+
+    button:hover {
+        border: 1px solid #FF4500; /* Add a border on hover */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0); /* Add a box shadow on hover */
+        opacity: 0.8; /* Reduce opacity on hover */
+        transform: scale(1.1); /* Apply a scale transformation on hover */
+    }
+
+.box_color {
+    background-color: #eae87e;
+    height: 190px;
+    width: 1490px;
+    text-align: center;
+    font-size: 72px;
+    margin: -10px 0px 0px 0px;
+}
+
+.new {
+    text-align: center;
+}

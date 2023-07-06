@@ -1,0 +1,61 @@
+<html>
+<head>
+<body>
+<head>
+<style>
+body{
+padding-left:75pt;
+padding-top:690pt;
+background-image: url("/static/images/page2.jpg");
+      background-repeat: no-repeat;
+       background-size:70% 100%;
+      background-position: center;
+	  background-color:black;
+      padding-top:20px;
+      color:black;
+      font-size:35px;
+	  }
+</style>
+<br><br>
+<form  action="{{url_for('matchres2')}}" method="post">
+<p style="padding-left:120px; font-size:25px"> </p>
+<table border=1 align="center">
+  <tr>
+    <th></th>
+    <th>ಜೋಡಿಸಿ</th>
+    <th></th>
+    <th>ಸಂಧಿ</th>
+  </tr>
+  <tr>
+    <td>1]	ಕಾ+ಅಲುಂ</td>
+    <td><input style ="width:60px" type="number" min="1" max="3" name="1" value="{{request.form.1}}"></td>
+    <td>1 ಬಾಲನ್ನು
+</td>
+    <td><input style ="width:60px" type="number" min="1" max="3" name="4" value="{{request.form.4}}"></td>
+    <td>1 ಲೋಪ ಸಂಧಿ</td>
+  </tr>
+ <tr>
+    <td>2]	ಮಳೆ+ಕಾಲ</td>
+    <td><input style ="width:60px" type="number" min="1" max="3" name="2" value="{{request.form.2}}"></td>
+    <td>2 ಕಾಯಲುಂ</td>
+    <td><input style ="width:60px" type="number" min="1" max="3" name="5" value="{{request.form.5}}"></td>
+    <td>2 ಆಗಮ ಸಂಧಿ</td>
+ </tr>
+ <tr>
+    <td>3]	ಬಾಲು + ಅನ್ನು
+</td>
+ 
+    <td><input style ="width:60px" type="number" min="1" max="3" name="3" value="{{request.form.3}}"></td>
+     <td>3 ಮಳೆಗಾಲ
+</td>
+     <td><input style ="width:60px" type="number" min="1" max="3" name="6" value="{{request.form.6}}"></td> 
+     <td>3 ಆದೇಶ ಸಂಧಿ</td>
+ </tr>
+</table>
+<br><br>
+ <P style="padding-left:450pt"><input style="font-size:15px;" type="SUBMIT" VALUE="ಸಲ್ಲಿಸು" name="B1"></P>
+</form>
+
+</head>
+</body>
+</html>

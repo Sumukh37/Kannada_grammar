@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+
+            html {
+                background: url(/static/images/woodplank.jpg) no-repeat center fixed;
+                background-size: cover;
+                height: 1000px;
+            }
+            body {
+                color: rgb(17, 36, 66);
+                text-align: center;
+            }
+
+
+
+            /* Custom Radio Button Styles */
+            .radio-group {
+                display: inline-flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .radio-label {
+                display: inline-flex;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+
+            .radio-input {
+                appearance: none;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                border: 2px solid #0033ff;
+                outline: none;
+                margin-right: 10px;
+                position: relative;
+                cursor: pointer;
+            }
+
+            .radio-input:checked::before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background-color: #4CAF50;
+            }
+
+            .radio-label:hover .radio-input {
+                border-color: #3e8e41;
+            }
+            h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+p.main {
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+p.adp {
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+p.ade {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+p.adf {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p.adg {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p.adh {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p.adi {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p.adj {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p.adk {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p.adl {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p.adm {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p.adn {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #f9f9f9;
+  padding: 10px;
+  z-index: 9999;
+}
+
+.navbar a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+}
+
+.navbar a.active {
+  background-color: #3a3736;
+  color: white;
+}
+
+html {
+  background: url(/static/images/woodplank.jpg) no-repeat center fixed;
+  background-size: cover;
+  height: 1000px;
+}
+
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #96D4D4;
+  font-size: xx-large;
+}
+</style>
+<title>ನುಡಿಗಟ್ಟುಗಳು</title>
+<link rel="stylesheet" href="static/scss/newfile1.css">
+<link rel="shortcut icon" href="..\static\images\kannada.webp" type="image/x-icon">
+
+</head>
+<body>
+
+  <div class="new">
+    <h1 class="box_color">ಕನ್ನಡ ನುಡಿಗಟ್ಟುಗಳು<hr></h1>
+    <button type="button" onclick="window.location.href='http://127.0.0.1:5000/homen';">ಮುಖ್ಯಪುಟ</button>
+    <button type="button" onclick="window.location.href='http://127.0.0.1:5000/identifyLanguagen';">ಅಭ್ಯಾಸ ಪ್ರಾರಂಭಿಸು</button>
+    <button type="button" onclick="window.location.href='http://127.0.0.1:5000';">ವ್ಯಾಕರಣ ಮುಖ್ಯಪುಟ</button>
+
+  </div>
+
+        <h2>ಈ ನುಡಿಗಟ್ಟಿಗೆ ಸೂಕ್ತ ಅರ್ಥವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ </h2>
+        <br>
+        <h2 id="id1">{{word}}</h2>
+
+        <div class="radio-group">
+            <label class="radio-label">
+                <input type="radio" name="lang" value="{{op1}}" class="radio-input">
+                {{op1}}
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="lang" value="{{op2}}" class="radio-input">
+                {{op2}}
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="lang" value="{{op3}}" class="radio-input">
+                {{op3}}
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="lang" value="{{op4}}" class="radio-input">
+                {{op4}}
+            </label>
+        </div>
+
+        <h3 id="print"></h3>
+        <button id="btn" class="button" value="identify" onclick="passParam(getSelectedValue('lang'), document.getElementById('id1').innerHTML)">
+            ಸಲ್ಲಿಸು
+        </button>
+
+        <button id="btn2" class="button" value="identify" onclick="window.location.href = 'http://127.0.0.1:5000/identifyLanguagen';">ಮುಂದುವರಿಸಿ</button>
+        <br>
+        <h2 id="id2"></h2>
+
+        <script>
+            function getSelectedValue(name) {
+                var radios = document.getElementsByName(name);
+                for (var i = 0; i < radios.length; i++) {
+                    if (radios[i].checked) {
+                        return radios[i].value;
+                    }
+                }
+                return null;
+            }
+
+            function passParam(lan, word) {
+                var http = new XMLHttpRequest();
+                var url = 'http://127.0.0.1:5000/validaten';
+                var params = `lang=${lan}&word=${word}&type=identify`;
+                http.open('POST', url, true);
+
+                //Send the proper header information along with the request
+                http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+                http.onreadystatechange = function() {
+                    //Call a function when the state changes.
+                    if (http.readyState == 4 && http.status == 200) {
+                        document.getElementById('print').innerHTML = http.responseText;
+                    }
+                }
+                http.send(params);
+            }
+        </script>
+    </body>
+</html>

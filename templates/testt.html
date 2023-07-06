@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>VYAKARANA</title>
+
+    <!-- Favicon -->
+    <!-- <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon"> -->
+
+    <link href="{{ url_for('static',filename='assets/css/font-awesome.css') }}" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="{{ url_for('static',filename='assets/css/bootstrap.css') }}" rel="stylesheet">   
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename = 'assets/css/slick.css') }}">    
+    <!-- Date Picker -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename = 'assets/css/bootstrap-datepicker.css') }}">    
+    <!-- Fancybox slider -->
+    <link rel="stylesheet" href="{{ url_for('static',filename ='assets/css/jquery.fancybox.css') }}" type="text/css" media="screen" /> 
+    <!-- Theme color -->
+    <link id="switcher" href="{{ url_for('static',filename='assets/css/theme-color/default-theme.css') }}" rel="stylesheet">     
+
+    <!-- Main style sheet -->
+    <link href="{{ url_for('static',filename='style.css') }}" rel="stylesheet"> 
+
+    
+
+   
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>        
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
+    
+  </head>
+  <body>  
+ 
+ <a class="scrollToTop" href="#">
+      <i class="fa fa-angle-up"></i>
+      <span>Top</span>
+    </a>
+  
+  <header id="mu-header">  
+    <nav class="navbar navbar-default mu-main-navbar" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- LOGO -->                                                        
+          
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
+           <li><a href="/indext">ಮುಖ್ಯ ಪುಟ</a></li>    
+         
+                                                
+              </ul>
+            </li>
+          </ul>                            
+        </div>    
+      </div>          
+    </nav> 
+  </header>
+  <!-- End header section -->
+ 
+  <section id="mu-reservation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mu-reservation-area">
+              <div class="mu-title">
+                <span class="mu-subtitle">ಪದ ಪರೀಕ್ಷಿಸಿ</span>
+              </div>
+              <div class="mu-reservation-content">
+                <form class="mu-reservation-form" action="/test1t" method="POST" >
+                  <div class="row">  
+                      <div class="col-md-6-center">
+                          <div class="form-group">
+                      </div>
+                    </div>        
+                    <div class="col-md-6-center">
+                      <div class="form-group">  <div class="form-group" style="width:20%;margin-left:390px;">  
+					  <input type="text" class="form-control" name="word" placeholder=" "  required>	
+					  <center><a href ="http://kannada.changathi.com/"target="_blank" style="text-decoration:none"><button>ಕನ್ನಡ ಪದವನ್ನು ಬಳಸಲು </button></a></center>
+					  </div>
+					  
+                    </div>
+                    <br>
+                     
+                    <div class="col-md-6-center">
+                        <h3 class="alert alert-primary">{{message}}{{result}}</h3>
+                    </div>
+               
+                        <button type="submit" class="mu-readmore-btn">ಸಲ್ಲಿಸಿ</button>>
+                   
+                        <script>
+                          function myFunction() {
+                            window.open("http://kannada.changathi.com");
+                          }
+                          </script>
+                      </div>
+                </form>  
+                
+             
+              
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    </section>  
+  
+
+
+  <script src="{{ url_for('static',filename='assets/js/jquery.min.js') }}"></script>  
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="{{ url_for('static',filename='assets/js/bootstrap.js') }}"></script>   
+  <!-- Slick slider -->
+  <script type="text/javascript" src="{{ url_for('static',filename='assets/js/slick.js') }}"></script>
+  <!-- Counter -->
+  <script type="text/javascript" src="{{ url_for('static',filename='assets/js/waypoints.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static',filename='assets/js/jquery.counterup.js') }}"></script>
+  <!-- Date Picker -->
+  <script type="text/javascript" src="{{ url_for('static',filename='assets/js/bootstrap-datepicker.js') }}"></script> 
+  <!-- Mixit slider -->
+  <script type="text/javascript" src="{{ url_for('static',filename='assets/js/jquery.mixitup.js') }}"></script>
+  <!-- Add fancyBox -->        
+  <script type="text/javascript" src="{{ url_for('static',filename='assets/js/jquery.fancybox.pack.js') }}"></script>
+
+  <!-- Custom js -->
+  <script src="{{ url_for('static',filename='assets/js/custom.js') }}"></script> 
+
+  </body>
+</html>

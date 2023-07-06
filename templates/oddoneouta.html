@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<style type="text/css">
+
+
+body {
+  color: rgb(17, 36, 66);
+  text-align: center;
+}
+
+	</style>  <title>ಅನ್ಯ ದೇಶಿಯ ಪದಗಳು</title>
+      <link rel="stylesheet" href="static/scss/newfile1.css">
+      <link rel="shortcut icon" href="..\static\images\kannada.webp" type="image/x-icon">
+
+
+
+    </head>
+    <body>
+      <div class="new">
+        <h1 class="box_color">ಅನ್ಯ ದೇಶಿಯ ಪದಗಳು<hr></h1>
+        <button type="button" onclick="window.location.href='http://127.0.0.1:5000/homea';">ಮುಖ್ಯಪುಟ</button>
+        <button type="button" onclick="window.location.href='http://127.0.0.1:5000/start1a';">ಉದಾಹರಣೆಗಳು</button>
+        <button type="button" onclick="window.location.href='http://127.0.0.1:5000/testa';">ಪರೀಕ್ಷಿಸಿ</button>
+        <button type="button" onclick="window.location.href='http://127.0.0.1:5000/welcomea';">ಅಭ್ಯಾಸ ಪ್ರಾರಂಭಿಸು</button>
+        <button type="button" onclick="window.location.href='http://127.0.0.1:5000';">ವ್ಯಾಕರಣ ಮುಖ್ಯಪುಟ</button>
+
+      </div><br><br><br><br><br>
+
+		<h2>
+    	ಗುಂಪಿಗೆ ಸೇರದ ಪದ
+    	</h2>
+        <br><br>
+
+    	<h2 id = "id1">
+			{{ word }}
+        </h2>
+
+    <input type="text" name="name" id="enteredword"> <br><br>
+    <h3 id ="print"></h3>
+    <div class="new">
+      <button type="button" onclick="passParam(document.getElementById('enteredword').value,document.getElementById('id1').innerHTML)">ಸಲ್ಲಿಸಿ</button>
+      <button type="button" onclick="window.location.href='http://127.0.0.1:5000/oddoneouta';">ಮುಂದುವರಿಸಿ</button>
+      <button type="button" onclick="window.location.href='http://127.0.0.1:5000/welcomea';">ಹಿಂದಿನ ಪುಟ</button>
+
+    </div>
+		<br><br>
+		<h2	id = "id2"></h2>
+
+		<script>
+  			function passParam(enteredword,word) {
+				var http = new XMLHttpRequest();
+				var url = 'http://127.0.0.1:5000/oddoneoutvalia';
+				var params = `enteredword=${enteredword}&word=${word}`;
+				http.open('POST', url, true);
+
+				//Send the proper header information along with the request
+				http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+				http.onreadystatechange = function() {//Call a function when the state changes.
+    			if(http.readyState == 4 && http.status == 200) {
+        			document.getElementById('print').innerHTML = http.responseText;
+    			}
+			}
+			http.send(params);
+  			}
+		</script>
+    </body>
+</html>

@@ -1,0 +1,109 @@
+{
+  "letters": {
+    "part one": {
+      "meem": {
+        "questions": [
+          {
+        "question": 
+"A)ಅಕ್ಷರ - a) ಬನ\nB)ಕೀರ್ತಿ - b) ದಿಟ್ಟಿ\nC)ಪ್ರಾಣ - c)ಕೀರುತಿ\nD)ವನ -  d)ಅಕ್ಕರ\nE)ದೃಷ್ಟಿ - e)ಪಿರಾಣ \n\n [a]A-d,B-c,C-e,D-a,E-b \n [b]A-e,B-d,C-a,D-b,E-c \n [c]A-d,B-c,C-e,D-b,E-a ",
+         "answer": "A-d,B-c,C-e,D-a,E-b"
+    },
+    {
+        "question": 
+"A)ಸುಖ - a)ಆಸೆ\nB)ಬ್ರಹ್ಮ - b)ಸಕ್ಕದ\nC)ಯುದ್ಧ - c)ಬೊಮ್ಮ\nD)ಸಂಸ್ಕೃತ - d)ಜುದ್ದ\nE)ಆಶಾ - e)ಸುಗ \n\n [a]A-d,B-c,C-e,D-a,E-b\n [b]A-e,B-c,C-d,D-b,E-a\n [c]A-e,B-c,C-a,D-b,E-d ",
+         "answer": "[b]A-e,B-c,C-d,D-b,E-a"
+       
+        },
+            {
+        "question": "A)ವೀರ - a)ಜೋಗಿ\nB)ಯೋಗಿ - b)ಬೀರ\nC)ರತ್ನ - c)ರತುನ\nD)ಅಟವೀ - d) ಮಾಲೆ\nE)ಮಾಲಾ - e)ಅಡವಿ \n\n [a]A-d,B-c,C-e,D-a,E-b\n [b]A-b,B-a,C-d,D-c,E-a\n [c]A-b,B-a,C-c,D-e,E-d ",
+         "answer": "A-b,B-a,C-c,D-e,E-d"
+    },
+           {
+        "question": "A)ಜನ್ಮ - a)ಸೊದೆ\nB)ಶೃಂಗಾರ - b)ಭುವಿ\nC)ಸ್ನೇಹ - c)ಜನುಮ\nD)ಭೂಮಿ - d)ಸಿಂಗಾರ\nE)ಸುಧಾ - e)ನೇಹಾ \n\n [a]A-c,B-d,C-e,D-b,E-a\n [b]A-b,B-a,C-d,D-c,E-a\n [c]A-b,B-a,C-c,D-e,E-d ",
+         "answer": "A-c,B-d,C-e,D-b"
+    },
+        {
+        "question": "A)ಗ್ರಹ - a)ನೋಮಿ\nB)ನವಮಿ - b)ರಾಯ\nC)ದುಃಖ - c)ಆತುಮ\nD)ರಾಜ - d)ದುಗುಡ\nE)ಆತ್ಮ - e)ಗರ \n\n [a]A-c,B-d,C-e,D-b,E-a\n [b]A-b,B-a,C-d,D-c,E-a\n [c]A-e,B-a,C-d,D-b,E-c ",
+         "answer": "A-e,B-a,C-d,D-b,E-c"
+    },
+           {
+        "question": "A)ವೀಣೆ - a)ದಿಶಾ\nB)ಗುರು - b)ಬೀಣೆ\nC)ದೆಸೆ - c)ಗೊರವ \nD)ಶರ - d)ಗಾಚಾರ\nE)ಗ್ರಹಚಾರ - e)ಸರ\n\n [a]A-b,B-c,C-a,D-e,E-d\n [b]A-b,B-a,C-d,D-c,E-a\n [c]A-e,B-a,C-d,D-b,E-c ",
+         "answer": "A-b,B-c,C-a,D-e,E-d"
+    },
+             {
+        "question": "A)ಜೋತಿಷಿ - a)ಪಯಣ\nB)ಘಂಟೆ - b)ಸಾಜ\nC)ನಿತ್ಯ - c)ಜೋಯಿಸಿ\nD)ಪ್ರಯಾಣ - d)ಗಂಟೆ\nE)ಸಹಜ - e)ನಿಚ್ಚ\n\n [a]A-b,B-c,C-a,D-e,E-d\n [b]A-c,B-d,C-e,D-a,E-b\n [c]A-e,B-a,C-d,D-b,E-c ",
+         "answer": "A-c,B-d,C-e,D-a,E-b"
+    },
+             {
+        "question": "A)ಮೃದು - a) ಜಾನ\nB)ಶಾಂತಿ - b)ಮಿದು\nC)ಶ್ರೀ - c)ಶೆಟ್ಟಿ\nD)ಶ್ರೇಷ್ಠ - d)ಸಿರಿ\nE)ಜ್ಞಾನ - e)ಸರ\n\n [a]A-b,B-c,C-a,D-e,E-d\n [b]A-b,B-a,C-d,D-c,E-a\n [c]A-e,B-a,C-d,D-b,E-c ",
+         "answer": "A-b,B-a,C-d,D-c,E-a"
+    },
+             {
+        "question": "A)ಪಕ್ಷಿ - a)ಸಿಸು\nB)ವರ್ಣ - b)ಹಕ್ಕಿ\nC)ಶಿಶು - c)ಬಣ್ಣ\nD)ಅಮೃತ - d)ಹಾಲು\nE)ಕ್ಷೀರ - e)ಅಮರ್ದು\n\n [a]A-b,B-c,C-a,D-e,E-d\n [b]A-b,B-a,C-d,D-c,E-a\n [c]A-e,B-a,C-d,D-b,E-c ",
+         "answer": "A-b,B-c,C-a,D-e,E-d"
+    },
+             {
+        "question": "A)ವ್ಯಾಸಂಗ - a)ಚಾಗ\nB)ತ್ಯಾಗ - b)ಕೋಗಿಲೆ\nC)ಕೋಕಿಲ - c)ದಿಬ್ಬ\nD)ಅಭೀ - d)ಯಾಸಂಗ\nE)ದಿವ್ಯ - e)ಅಬುದಿ\n\n [a]A-b,B-c,C-a,D-e,E-d\n [b]A-a,B-b,C-d,D-c,E-e\n [c]A-d,B-a,C-b,D-e,E-c ",
+         "answer": "A-d,B-a,C-b,D-e,E-c"
+    },
+             {
+        "question": "A)ಫಲಕ - a)ಜಸ\nB)ಯಶ - b)ಮಚ್ಚರ\nC)ಕಲಶ - c)ಹಲಗೆ\nD)ಗರ್ವ - d)ಕಳಸ\nE)ಮತ್ಸರ - e)ಗರುವ\n\n [a]A-c,B-a,C-d,D-e,E-b\n [b]A-b,B-a,C-d,D-c,E-a\n [c]A-e,B-a,C-d,D-b,E-c ",
+         "answer": "A-c,B-a,C-d,D-e,E-b"
+    },
+               {
+        "question": "A)ಸನ್ಹೆ - a)ಸೊನ್ನೆ\nB)ಸಾಹಸ - b)ಹಸಾದ\nC)ಪ್ರಸಾದ- c)ಇಂದಿರ\nD)ಇಂದ್ರ - d)ಸಣ್ಣ\nE)ಶೂನ್ಯ - e)ಸಾಸ\n\n [a]A-b,B-c,C-a,D-e,E-d\n [b]A-d,B-e,C-b,D-c,E-a\n [c]A-e,B-a,C-d,D-b,E-c ",
+         "answer": "b"
+    },
+             {
+        "question": "A)ಕಾರ್ತಿಲ - a)ಲಕುಮಿ\nB)ಲಕ್ಷ್ಮಿ - b)ಕತ್ತಿ\nC)ಪಟ್ಟಣ - c)ಲಕ್ಕಣ\nD)ಲಕ್ಷ್ಮಣ - d)ದನಿ\nE)ದ್ವನಿ - e)ಪತ್ತನ\n\n [a]A-d,B-c,C-e,D-a,E-b\n [b]A-b,B-a,C-d,D-c,E-a\n [c]A-b,B-a,C-e,D-c,E-d ",
+         "answer": "A-b,B-a,C-e,D-c,E-d"
+    },
+            {
+        "question": 
+"A)ಸತ್ವ - a)ಶಬುದ\nB)ತಪಸ್ವಿ - b)ಸಿಂಗ\nC)ವೃದ್ಧ - c)ತಪಸಿ\nD)ಶಬ್ದ - d)ಸಚ್ಚ\nE)ಸಿಂಹ - e)ವಡ್ಡ \n\n [a]A-d,B-c,C-e,D-a,E-b\n [b]A-e,B-c,C-d,D-b,E-a\n [c]A-e,B-c,C-a,D-b,E-d ",
+         "answer": "A-d,B-c,C-e,D-a,E-b"
+       
+        },
+            {
+        "question": 
+"A)ಗೃಹ - a)ಅದುಬುತ\nB)ರಕ್ತ - b)ಭಿನ್ನಹ\nC)ಅದ್ಬುತ- c)ಗೇಹ \nD)ವಿಜ್ಞಾಪನೆ - d)ರಕುತ\nE)ಸಂತೋಷ - e)ಸಂತಸ\n\n [a]A-d,B-c,C-e,D-a,E-b\n [b]A-e,B-c,C-d,D-b,E-a\n [c]A-c,B-d,C-a,D-b,E-e ",
+         "answer": "A-c,B-d,C-a,D-b,E-e"
+       
+        },
+              {
+        "question": 
+"A)ಪಶು - a)ಜಂತ್ರ\nB)ಪ್ರಾಯ  - b)ಅಗ್ಗಿ\nC)ಅಗ್ನಿ - c)ಕೋವನ\nD)ಯಂತ್ರ - d)ಹರೆಯ\nE)ಕಾಪಿನ - e)ಹಸು\n\n [a]A-e,B-d,C-b,D-a,E-c\n [b]A-e,B-c,C-d,D-b,E-a\n [c]A-e,B-c,C-a,D-b,E-d ",
+         "answer": "A-e,B-d,C-b,D-a,E-c"
+       
+        },
+              {
+        "question": 
+"A)ವಲ್ಲಿ - a)ಸರ\nB)ಸ್ವರ - b) ಕುಳ್ಳ\nC)ತ್ಯಾಗ - c)ಗರ\nD)ಗ್ರಹ- d)ಬಳ್ಳಿ\nE)ಕುಬ್ಜ- e)ಚಾಗ\n\n [a]A-d,B-c,C-e,D-a,E-b\n [b]A-d,B-a,C-e,D-c,E-b\n [c]A-e,B-c,C-a,D-b,E-d ",
+         "answer": "A-d,B-a,C-e,D-c,E-b"
+       
+        },
+              {
+        "question": 
+"A)ಸೀರೆ - a)ಹಬ್ಬ\nB)ಪೃಥ್ವಿ - b)ಶೆಟ್ಟಿ\nC)ಪರ್ವ - c)ಪೊಡವಿ\nD)ಶ್ರೇಷ್ಠಿ- d)ಯುಕುತಿ\nE)ಯುಕ್ತಿ - e)ಚೀರ\n\n [a]A-d,B-c,C-e,D-a,E-b\n [b]A-e,B-c,C-d,D-b,E-a\n [c]A-e,B-c,C-a,D-b,E-d ",
+         "answer": "A-e,B-c,C-a,D-b,E-d"
+       
+        },
+              {
+        "question": 
+"A)ಘಟಿಕಾ - a)ಗೊತ್ತಿ\nB)ಜಳ - b)ಕಬ್ಬ\nC)ಉತ್ಸಾಹ - c)ಜಲ\nD)ಗೋಷ್ಠಿ - d)ಗಳಿಗೆ\nE)ಕಾವ್ಯ- e)ಉಕ್ಕಹ\n\n [a]A-d,B-c,C-e,D-a,E-b\n [b]A-e,B-c,C-d,D-b,E-a\n [c]A-e,B-c,C-a,D-b,E-d ",
+         "answer": "A-d,B-c,C-e,D-a,E-b"
+       
+        },
+              {
+        "question": 
+"A)ಕಾರ್ಯ - a)ಗಿರಾಸ\nB)ಸಂದೇಹ - b)ಕಥೆ\nC)ಪ್ರತಿ- c)ಸಂದೆಯ\nD)ಗ್ರಾಸ - d)ಕಜ್ಜ\nE)ಕಥಾ - e)ಪಡಿ\n\n [a]A-d,B-c,C-e,D-a,E-b\n [b]A-e,B-c,C-d,D-b,E-a\n [c]A-e,B-c,C-a,D-b,E-d ",
+         "answer": "A-d,B-c,C-e,D-a,E-b"
+       
+        }
+             
+                    
+       ]
+      }
+    }
+  }
+}

@@ -1,0 +1,146 @@
+<html>
+<head>
+  <title>ವಿರುದ್ಧಾರ್ಥಕ ಪದಗಳು</title>
+  <link rel="stylesheet" href="static/scss/newfile.css">
+  <link rel="shortcut icon" href="..\static\images\kannada.webp" type="image/x-icon">
+
+
+</head>
+<body>
+  <div class="new">
+    <h1 class="box_color">ವಿರುದ್ಧಾರ್ಥಕ ಪದಗಳು<hr></h1>
+    <button type="button" onclick="window.location.href='http://127.0.0.1:5000/homev';">ಮುಖ್ಯಪುಟ</button>
+    <button type="button" onclick="window.location.href='http://127.0.0.1:5000/testv';">ಪರೀಕ್ಷಿಸು</button>
+    <button type="button" onclick="window.location.href='http://127.0.0.1:5000/identifyLanguagev';">ಅಭ್ಯಾಸ ಪ್ರಾರಂಭಿಸು </button>
+    <button type="button" onclick="window.location.href='http://127.0.0.1:5000';">ವ್ಯಾಕರಣ ಮುಖ್ಯಪುಟ</button>
+  </div>
+
+  <input type="text" name="name" id="testinput"><br><br>
+	<button id="btn1" class = "button" value="identify" onclick="passParam(document.getElementById('testinput').value)">
+    ಸಲ್ಲಿಸು</button><br><br>
+    <button id="btn1" class = "button" value="identify" onclick="window.location.href = 'http://127.0.0.1:5000/testv';">ಮರುಪರೀಕ್ಷಿಸು</button><br><br>
+	<h2	id = "id2"></h2>
+	<script>
+		function passParam(testinput) {
+		  var http = new XMLHttpRequest();
+		  var url = 'http://127.0.0.1:5000/retrievev';
+		  var params = `testinput=${testinput}`;
+		  http.open('POST', url, true);
+
+		  //Send the proper header information along with the request
+		  http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+		  http.onreadystatechange = function() {//Call a function when the state changes.
+		  if(http.readyState == 4 && http.status == 200) {
+			  document.getElementById('id2').innerHTML = http.responseText;
+		  }
+	  }
+	  http.send(params);
+		}
+  </script>
+
+  <!-- <button style="font-size:15px" type="button" id="btn" value="start" onclick="window.location.href = 'http://127.0.0.1:5000/mcq';">ಮುಂದಿನ ಪ್ರಶ್ನೆ</button>
+  <button style="font-size:15px" type="button" onclick="window.location.href='http://127.0.0.1:5000/abhyasa1';">ಅಭ್ಯಾಸ</button> -->
+
+
+</br></br>
+
+</body>
+</head>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>Testing the tool</title>
+	<style type="text/css">
+	.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+html {
+  background: url(/static/images/woodplank.jpg ) no-repeat center fixed;
+  background-size: cover;
+  height:1000px;
+}
+
+body {
+  color: rgb(17, 36, 66);
+}
+	</style>
+    </head>
+    <body>
+	<input type="text" name="name" id="testinput"><br><br>
+	<button id="btn1" class = "button" value="identify" onclick="passParam(document.getElementById('testinput').value)">
+    ಸಲ್ಲಿಸು</button><br><br>
+    <button id="btn1" class = "button" value="identify" onclick="window.location.href = 'http://127.0.0.1:5000/testv';">ಮರುಪರೀಕ್ಷಿಸು</button><br><br>
+	<h2	id = "id2"></h2>
+	<script>
+		function passParam(testinput) {
+		  var http = new XMLHttpRequest();
+		  var url = 'http://127.0.0.1:5000/retrievev';
+		  var params = `testinput=${testinput}`;
+		  http.open('POST', url, true);
+
+		  //Send the proper header information along with the request
+		  http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+		  http.onreadystatechange = function() {//Call a function when the state changes.
+		  if(http.readyState == 4 && http.status == 200) {
+			  document.getElementById('id2').innerHTML = http.responseText;
+		  }
+	  }
+	  http.send(params);
+		}
+  </script>
+	</body>
+</html> -->

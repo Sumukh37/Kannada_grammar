@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ತತ್ಸಮ ತದ್ಭವ</title>
+    <link rel="stylesheet" href="static/scss/newfile1.css">
+    <link rel="shortcut icon" href="..\static\images\kannada.webp" type="image/x-icon">
+
+
+  </head>
+  <body align="center">
+
+
+        <div class="new">
+          <h1 class="box_color">ತತ್ಸಮ ತದ್ಭವ<hr></h1>
+          <button type="button" onclick="window.location.href='http://127.0.0.1:5000/indext';">ಮುಖ್ಯಪುಟ</button>
+          <button type="button" onclick="window.location.href='http://127.0.0.1:5000/searcht';">ಅಭ್ಯಾಸ 1</button>
+          <button type="button" onclick="window.location.href='http://127.0.0.1:5000/findt';">ಅಭ್ಯಾಸ 2</button>
+          <button type="button" onclick="window.location.href='http://127.0.0.1:5000/hnoticet';">ಅಭ್ಯಾಸ 3</button>
+
+          <button type="button" onclick="window.location.href='http://127.0.0.1:5000';">ವ್ಯಾಕರಣ ಮುಖ್ಯಪುಟ</button>
+        </div>
+        
+        <span class="mu-subtitle">ಪದ ಗುರುತಿಸಿ</span>
+      </div>
+      <div class="mu-reservation-content">
+
+          <div class="row">
+              <div class="col-md-6-center">
+                  <div class="form-group">
+              </div>
+            </div>
+            <div class="col-md-6-center">
+                <center>    <br> <h3 class="alert alert-primary">{{q1}}</h3> </br>
+                  <h3 class="alert alert-primary">{{q2}}</h3>       </center>
+              <div class="form-group" style="width:20%;margin:auto;">
+
+                <input type="text" class="form-control" id="word" placeholder=""  required>
+    <a href ="hhtp://kannada.changathi.com/"target="_blank" ><button>ಕನ್ನಡ ಪದವನ್ನು ಬಳಸಲು </button></a>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-6-center">
+            </div>
+
+  <br>
+            <p><button type="button" class="mu-readmore-btn"  onclick="showInput();">ಸಲ್ಲಿಸಿ</button></p>
+          <center>  <a href="/findt" class="mu-readmore-btn">ಪುನರಾರಂಭಿಸಿ</a>   </center>
+            <p><span id='display'></span></p>
+
+                            <script>
+                            function showInput() {
+                                var ans = '{{a1}}'
+                                var n = document.getElementById("word").value;
+                                console.log(n)
+                                console.log(ans)
+                                if (n  == ans ) {
+                                  alert("ಸರಿ");
+                                }
+                                else {
+
+                                  alert("\nತಪ್ಪು ಸರಿಯಾದ ಉತ್ತರ  "+ans)
+                                }
+                          }
+                        </script>
+
+                    <script>
+                      function myFunction() {
+                        window.open("http://kannada.changathi.com");
+                      }
+                      </script>
+
+  <!-- Start slider  -->
+
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ತತ್ಸಮ ತದ್ಭವ</title>
+    <link rel="shortcut icon" href="..\static\images\kannada.webp" type="image/x-icon">
+
+
+
+    <link href="{{ url_for('static',filename='assets/css/font-awesome.css') }}" rel="stylesheet">
+   
+    <link href="{{ url_for('static',filename='assets/css/bootstrap.css') }}" rel="stylesheet">
+   
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename = 'assets/css/slick.css') }}">
+   
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename = 'assets/css/bootstrap-datepicker.css') }}">
+    
+    <link rel="stylesheet" href="{{ url_for('static',filename ='assets/css/jquery.fancybox.css') }}" type="text/css" media="screen" />
+  
+    <link id="switcher" href="{{ url_for('static',filename='assets/css/theme-color/default-theme.css') }}" rel="stylesheet">
+
+    <link href="{{ url_for('static',filename='style.css') }}" rel="stylesheet">
+
+
+
+
+
+    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+
+ <a class="scrollToTop" href="#">
+      <i class="fa fa-angle-up"></i>
+      <span>Top</span>
+    </a>
+
+  <header id="mu-header">
+    <nav class="navbar navbar-default mu-main-navbar" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+         
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
+            <li><a href="/indext">ಮುಖ್ಯ ಪುಟ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <section id="mu-reservation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mu-reservation-area">
+              <div class="mu-title">
+                <span class="mu-subtitle">ಪದ ಗುರುತಿಸಿ</span>
+              </div>
+              <div class="mu-reservation-content">
+
+                  <div class="row">
+                      <div class="col-md-6-center">
+                          <div class="form-group">
+                      </div>
+                    </div>
+                    <div class="col-md-6-center">
+                        <center>    <br> <h3 class="alert alert-primary">{{q1}}</h3> </br>
+                          <h3 class="alert alert-primary">{{q2}}</h3>       </center>
+                      <div class="form-group" style="width:20%;margin-left:390px;">
+
+                        <input type="text" class="form-control" id="word" placeholder=""  required>
+						<a href ="hhtp://kannada.changathi.com/"target="_blank" style="text-decoration:none"><button>ಕನ್ನಡ ಪದವನ್ನು ಬಳಸಲು </button></a>
+                      </div>
+                    </div>
+                    <br>
+                    <div class="col-md-6-center">
+                    </div>
+
+					<br>
+                    <p><button type="button" class="mu-readmore-btn"  onclick="showInput();">ಸಲ್ಲಿಸಿ</button></p>
+                  <center>  <a href="/findt" class="mu-readmore-btn">ಪುನರಾರಂಭಿಸಿ</a>   </center>
+                    <p><span id='display'></span></p>
+
+                                    <script>
+                                    function showInput() {
+                                        var ans = '{{a1}}'
+                                        var n = document.getElementById("word").value;
+                                        console.log(n)
+                                        console.log(ans)
+                                        if (n  == ans ) {
+                                          alert("ಸರಿ");
+                                        }
+                                        else {
+
+                                          alert("\nತಪ್ಪು ಸರಿಯಾದ ಉತ್ತರ  "+ans)
+                                        }
+                                  }
+                                </script>
+
+                            <script>
+                              function myFunction() {
+                                window.open("http://kannada.changathi.com");
+                              }
+                              </script>
+
+
+                      </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+
+
+  <script src="{{ url_for('static',filename='assets/js/jquery.min.js') }}"></script>
+  Include all compiled plugins (below), or include individual files as needed
+  <script src="{{ url_for('static',filename='assets/js/bootstrap.js') }}"></script>
+
+  <script type="text/javascript" src="{{ url_for('static',filename='assets/js/slick.js') }}"></script>
+ 
+  <script type="text/javascript" src="{{ url_for('static',filename='assets/js/waypoints.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static',filename='assets/js/jquery.counterup.js') }}"></script>
+ 
+  <script type="text/javascript" src="{{ url_for('static',filename='assets/js/bootstrap-datepicker.js') }}"></script>
+ 
+  <script type="text/javascript" src="{{ url_for('static',filename='assets/js/jquery.mixitup.js') }}"></script>
+ 
+  <script type="text/javascript" src="{{ url_for('static',filename='assets/js/jquery.fancybox.pack.js') }}"></script>
+
+
+  <script src="{{ url_for('static',filename='assets/js/custom.js') }}"></script>
+
+  </body>
+</html> -->

@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <title>ಸಂಧಿ</title>
+  <link rel="stylesheet" href="static/scss/newfile1.css">
+  <link rel="shortcut icon" href="..\static\images\kannada.webp" type="image/x-icon">
+
+
+</head>
+<body align="center">
+  <div class="new">
+    <h1 class="box_color">ಸಂಧಿ<hr></h1>
+    <button type="button" onclick="window.location.href='http://127.0.0.1:5000/welcome';">ಮುಖ್ಯಪುಟ</button>
+    <button type="button" onclick="window.location.href='http://127.0.0.1:5000/page2';">ಸಂಧಿ ಪ್ರಕಾರಗಳು</button>
+    <button type="button" onclick="window.location.href='http://127.0.0.1:5000/abhyasa';">ಅಭ್ಯಾಸ ಪ್ರಾರಂಭಿಸು</button>
+    <button type="button" onclick="window.location.href='http://127.0.0.1:5000';">ವ್ಯಾಕರಣ ಮುಖ್ಯಪುಟ</button>
+  </div>
+
+<p align="center" style="padding-left:120px; font-size:25px">To type kannada <a href="http://kannada.changathi.com/">Click here</a> </p>
+<form action="/sfill" method="post">
+  <br>
+  <input style="background-color: white;color:black;font-size: 20px;" type="text" size="12" name="two" value="{{text1}}"><br>
+   <br>
+
+  ಸಂಧಿಯನ್ನು ಬಿಡಿಸಿ<br> <input style="background-color: white;color:black;font-size: 20px"  placeholder="ಮೊದಲನೆ ಪದ" size="10" type="text" name="one" value="{{request.form.one}}"> +
+  <input style="background-color: white;color:black;font-size: 20px" placeholder="ಎರಡನೆ ಪದ" type="text" size="10"name="four" value="{{request.form.two}}">
+  <br>
+  <br>
+  ಸಂಧಿಯನ್ನು ಹೆಸರಿಸಿ  <br>
+  <select style="background-color: white;color:black;font-size: 20px"; type="text" name="three" value="{{text2}}">
+  <option >ಲೋಪಸಂಧಿ</option>
+  <option> ಆಗಮ ಸಂಧಿ </option>
+  <option> ಆದೇಶ ಸಂಧಿ </option>
+  </select>
+  <br>
+  <br>
+  <br>
+  <button  class="new" type="submit" value="ಸಲ್ಲಿಸಿ">ಸಲ್ಲಿಸಿ</button>
+  <button class="new" type="button" onclick="window.location.href='http://127.0.0.1:5000/abhyasa';">ಹಿಂದಿನ ಪುಟ</button>
+</form>
+</body>
+</html>
